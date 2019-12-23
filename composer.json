@@ -1,0 +1,36 @@
+{
+    "name": "gpupo/pack-symfony-b2c",
+    "description": "Pacote de componentes complementares para comércio eletrônico para projetos que rodam Symfony Framework",
+    "homepage": "https://opensource.gpupo.com/pack-symfony-b2c/",
+    "authors": [
+        {
+            "name": "Gilmar Pupo",
+            "email": "contact@gpupo.com"
+        }
+    ],
+    "keywords": ["common", "development"],
+    "license": "MIT",
+    "require": {
+      "gpupo/pack-symfony-common": "*",
+      "gpupo/brazilian-cars": "^2.0",
+      "gpupo/common-schema": "^5.0",
+      "gpupo/markethub-bundle": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gpupo\\PackSymfonyB2c\\": "src",
+            "Gpupo\\PackSymfonyB2c\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "gpupo/pack-symfony-dev": "*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
