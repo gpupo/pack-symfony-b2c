@@ -1,4 +1,4 @@
-Pacote de componentes complementares para comércio eletônico para projetos que rodam Symfony Framework
+Pacote de componentes complementares para comércio eletrônico para projetos que rodam Symfony Framework
 
 [![Build Status](https://secure.travis-ci.org/gpupo/pack-symfony-b2c.png?branch=master)](http://travis-ci.org/gpupo/pack-symfony-b2c)
 [![Actions Status](https://github.com/gpupo/pack-symfony-b2c/workflows/CI/badge.svg)](https://github.com/gpupo/pack-symfony-b2c/actions)
